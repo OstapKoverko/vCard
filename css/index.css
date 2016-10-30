@@ -1,0 +1,14 @@
+#photography {
+	position: relative;
+	float: left;
+	
+}
+
+#photography img {
+	max-width: 200px;
+}
+
+
+#mainContent {
+	max-width: 700px;
+}
