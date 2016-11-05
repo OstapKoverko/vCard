@@ -1,14 +1,13 @@
+.container div, img {
+	max-height: 500px;
+}
+
 #photography {
 	position: relative;
-	float: left;
-	
 }
-
-#photography img {
-	max-width: 200px;
-}
-
-
-#mainContent {
-	max-width: 700px;
-}
+#parag {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	color: white;
+}	
