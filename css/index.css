@@ -1,5 +1,17 @@
-.container div, img {
-	max-height: 500px;
+body {
+	background-color: #7db701;
+}
+
+.container {
+	margin: 150px auto 0 auto;
+
+
+	overflow: hidden;
+}
+
+.container div, .container img {
+	max-height: 600px;
+	max-width: 1140px;
 }
 
 #photography {
