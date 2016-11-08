@@ -1,6 +1,13 @@
 /* MAIN */
 body {
 	background-color: #7db701;
+	font-family: Arial, sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5;
+}
+
+p {
+	color: #7b7b7b;
 }
 
 .container {
@@ -9,6 +16,10 @@ body {
 	top: 50%;
 	width: 100%;
 	overflow: hidden;
+}
+
+.tab-content {
+	padding: 30px;
 }
 
 .container div, .container img {
@@ -20,6 +31,7 @@ body {
 #photography {
 	position: relative;
 }
+
 #parag {
 	position: absolute;
 	bottom: 10px;
