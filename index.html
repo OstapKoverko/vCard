@@ -30,28 +30,34 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<div id="photography"> <!-- PHOTOGRAPHY -->
+		<!-- PHOTOGRAPHY -->
+		<div class="col-md-4">
+			<div class="row">
+				<div id="photography"> 
 					<img src="img/me.jpg" alt="Ostap's photo">
 					<div id="parag">
 						<p>Ostap Koverko</p>
 						<p>some text</p>
 					</div>	
-				</div> <!-- /PHOTOGRAPHY -->
-			</div>	
-			<div class="col-md-8">	
-				<div id="mainContent"> <!-- MAIN CONTENT -->
-					<div id="menu">
-					  <ul class="nav nav-tabs">
-					    <li class="active"><a data-toggle="tab" href="#welkome">WELKOME</a></li>
-					    <li><a data-toggle="tab" href="#profile">PROFILE</a></li>
-					    <li><a data-toggle="tab" href="#resume">RESUME</a></li>
-					    <li><a data-toggle="tab" href="#portfolio">PORTFOLIO</a></li>
-					    <li><a data-toggle="tab" href="#contact">CONTACT</a></li>
-					  </ul>
-					</div>
-					<div class="tab-content">
+				</div> 
+			</div>
+		</div>
+		<!-- /PHOTOGRAPHY -->
+		<!-- MAIN CONTENT -->	
+		<div class="col-md-8">	
+			<div class="row">
+				<!-- Menu -->
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a data-toggle="tab" href="#welkome">WELKOME</a></li>
+				    <li><a data-toggle="tab" href="#profile">PROFILE</a></li>
+				    <li><a data-toggle="tab" href="#resume">RESUME</a></li>
+				    <li><a data-toggle="tab" href="#portfolio">PORTFOLIO</a></li>
+				    <li><a data-toggle="tab" href="#contact">CONTACT</a></li>
+				  </ul>
+				<!-- /Menu -->
+				<!-- Content -->
+				<div class="tab-content">
+					<!-- <div class="content"> -->
 					    <div id="welkome" class="tab-pane fade in active">
 					      <h3>WELKOME</h3>
 					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -155,11 +161,13 @@
 						  <br>
 					      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					    </div>
-					</div>
-				</div>	
-			</div> <!-- /MAIN CONTENT -->
-		</div>	
-	</div>
+					<!-- </div> -->
+				</div>
+				<!-- /Content -->
+			</div>
+		</div>
+		<!-- /MAIN CONTENT -->	
+	</div>	
 <script>
   jQuery(document).ready(function ($) {
   	$('.tab-content').perfectScrollbar({

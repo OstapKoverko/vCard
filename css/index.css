@@ -45,7 +45,7 @@ p {
 
 /* ///// MAIN CONTENT ///// */
 
-#menu, .tab-content {
+.nav-tabs, .tab-content {
 	background-color: white;
 }
 
