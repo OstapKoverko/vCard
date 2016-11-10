@@ -65,13 +65,10 @@
     -o-transition: background-color .2s linear, opacity .2s linear;
     -moz-transition: background-color .2s linear, opacity .2s linear;
     transition: background-color .2s linear, opacity .2s linear;
-    right: 15px;
+    right: 0;
     /* there must be 'right' for ps-scrollbar-y-rail */
-    /* Ostap: shift scrolbar 15px left */
     width: 15px; }
     .ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
-      margin-top: 43px;
-      /* Ostap: shift down scrolbar */
       position: absolute;
       /* please don't change 'position' */
       background-color: #aaa;

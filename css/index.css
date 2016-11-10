@@ -19,6 +19,10 @@ p {
 }
 
 .tab-content {
+	height: 557px;
+}
+
+.tab-pane {
 	padding: 30px;
 }
 

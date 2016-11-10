@@ -20,7 +20,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	
 	<!-- Perfect Scrolbar -->
-	<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.min.css">
+	<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
 	<script type="text/javascript" src=js/perfect-scrollbar.jquery.min.js></script>
 
 	<!-- Latest compiled and minified JavaScript -->
@@ -162,7 +162,9 @@
 	</div>
 <script>
   jQuery(document).ready(function ($) {
-  	$('.tab-pane').perfectScrollbar();
+  	$('.tab-content').perfectScrollbar({
+  wheelSpeed: 0.9
+});
   });
 </script>
 </body>
