@@ -11,10 +11,12 @@ p {
 }
 
 .container {
-	margin: -300px auto 0 auto;
 	position: absolute;
+	/*width: 1140px;*/
+	margin: -300px auto 0 auto;
 	top: 50%;
-	width: 100%;
+	left: 0;
+	right: 0;
 	overflow: hidden;
 }
 
@@ -28,8 +30,6 @@ p {
 
 .container div, .container img {
 	max-height: 600px;
-	max-width: 1140px;
-	margin: 0 auto 0 auto;
 }
 
 #photography {
