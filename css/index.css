@@ -28,12 +28,8 @@ p {
 	padding: 30px;
 }
 
-.container div, .container img {
+#photography img {
 	max-height: 600px;
-}
-
-#photography {
-	position: relative;
 }
 
 #parag {
@@ -41,6 +37,7 @@ p {
 	bottom: 10px;
 	left: 20px;
 	color: white;
+	font-weight: bold;
 }	
 
 /* ///// MAIN CONTENT ///// */
