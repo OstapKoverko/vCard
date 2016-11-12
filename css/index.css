@@ -20,24 +20,19 @@ p {
 	overflow: hidden;
 }
 
-.tab-content {
-	height: 557px;
-}
 
 .tab-pane {
 	padding: 30px;
-}
-
-#photography img {
-	max-height: 600px;
 }
 
 #parag {
 	position: absolute;
 	bottom: 10px;
 	left: 20px;
+}
+
+#parag p {
 	color: white;
-	font-weight: bold;
 }	
 
 /* ///// MAIN CONTENT ///// */

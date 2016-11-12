@@ -1,0 +1,16 @@
+#photography {
+	height: 370px;
+	background-image: url(../../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+#photography img {
+	height: 251px;
+}
+
+#parag {
+	width: 100%;
+	left: 0;
+}
