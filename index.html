@@ -18,6 +18,7 @@
 	<link rel="stylesheet" type="text/css" media="(min-width: 1200px)" href="css/responsive/1200px.css">
 	<link rel="stylesheet" type="text/css" media="(min-width: 992px) and (max-width: 1199px)" href="css/responsive/992px.css">
 	<link rel="stylesheet" type="text/css" media="(min-width: 768px) and (max-width: 991px)" href="css/responsive/768px.css">
+	<link rel="stylesheet" type="text/css" media="(min-width: 481px) and (max-width: 767px)" href="css/responsive/481px.css">
 
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -25,6 +26,9 @@
 	<!-- Perfect Scrolbar -->
 	<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
 	<script type="text/javascript" src=js/perfect-scrollbar.jquery.js></script>
+
+	<!-- Font Awesome-->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -36,11 +40,13 @@
 		<!-- PHOTOGRAPHY -->
 		<div class="col-md-4">
 			<div class="row">
-				<div id="photography"> 
-					<img src="img/me.jpg" alt="Ostap's photo">
-					<div id="parag">
-						<p>Ostap Koverko</p>
-						<p>some text</p>
+				<div id="profile-data">
+					<div id="photography"> 
+						<img src="img/me.jpg" alt="Ostap's photo">
+						<div id="parag">
+							<h3>Ostap Koverko</h3>
+							<p>some text</p>
+						</div>
 					</div>	
 				</div> 
 			</div>
@@ -50,18 +56,25 @@
 		<div class="col-md-8">	
 			<div class="row">
 				<!-- Menu -->
-				  <ul class="nav nav-tabs">
+				  <ul class="nav icon-off nav-tabs">
 				    <li class="active"><a data-toggle="tab" href="#welkome">WELKOME</a></li>
 				    <li><a data-toggle="tab" href="#profile">PROFILE</a></li>
 				    <li><a data-toggle="tab" href="#resume">RESUME</a></li>
 				    <li><a data-toggle="tab" href="#portfolio">PORTFOLIO</a></li>
 				    <li><a data-toggle="tab" href="#contact">CONTACT</a></li>
 				  </ul>
+				  <ul class="nav icon-on nav-tabs">
+				    <li class="active"><a data-toggle="tab" href="#welkome"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+				    <li><a data-toggle="tab" href="#profile"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+				    <li><a data-toggle="tab" href="#resume"><i class="fa fa-file-text" aria-hidden="true"></i></a></li>
+				    <li><a data-toggle="tab" href="#portfolio"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+				    <li><a data-toggle="tab" href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+				  </ul>
 				<!-- /Menu -->
 				<!-- Content -->
 				<div class="tab-content">
 				    <div id="welkome" class="tab-pane fade in active">
-				      <h3>WELKOME</h3>
+				      <h4>WELKOME</h4>
 				      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 					  <br>
 					  <br>
@@ -82,7 +95,7 @@
 				      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				    </div>
 				    <div id="profile" class="tab-pane fade">
-				      <h3>PROFILE</h3>
+				      <h4>PROFILE</h4>
 				      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					  <br>
 					  <br>
@@ -103,7 +116,7 @@
 				      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				    </div>
 				    <div id="resume" class="tab-pane fade">
-				      <h3>RESUME</h3>
+				      <h4>RESUME</h4>
 				      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
 					  <br>
 					  <br>
@@ -124,7 +137,7 @@
 				      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				    </div>
 				    <div id="portfolio" class="tab-pane fade">
-				      <h3>PORTFOLIO</h3>
+				      <h4>PORTFOLIO</h4>
 				      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 					  <br>
 					  <br>
@@ -143,7 +156,7 @@
 				      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				    </div>
 				    <div id="contact" class="tab-pane fade">
-				      <h3>CONTACT</h3>
+				      <h4>CONTACT</h4>
 				      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 					  <br>
 					  <br>

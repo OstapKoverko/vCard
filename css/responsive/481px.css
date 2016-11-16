@@ -1,3 +1,6 @@
+.container {
+	width: 470px;
+}
 #profile-data {
 	height: 370px;
 	background-image: url(../../img/bg.jpg);
@@ -25,6 +28,16 @@
 	left: 0;
 }
 
-.icon-on {
+.icon-off {
 	display: none;
+}
+
+/*.icon-on {
+	text-align: center;
+}*/
+
+.icon-on a {
+	color: #7db701;
+	font-size: 19px;
+	padding: 20px 17px;
 }
