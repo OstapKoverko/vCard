@@ -1,5 +1,5 @@
 .container {
-	width: 470px;
+	width: 350px;
 }
 #profile-data {
 	height: 370px;
@@ -33,7 +33,7 @@
 }
 
 .icon-on {
-	padding-left: 20%;
+	padding-left: 10%;
 }
 
 .icon-on a {
