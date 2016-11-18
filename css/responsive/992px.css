@@ -9,3 +9,7 @@
 .icon-on {
 	display: none;
 }
+
+.text-right {
+  padding-right: 10px;
+}

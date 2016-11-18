@@ -40,3 +40,25 @@
 	font-size: 19px;
 	padding: 20px 17px;
 }
+
+.contact-social {
+	text-align: center;
+}
+
+.social_icon {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hr-button {
+	float: none;
+}
+
+.contact-block td {
+	display: block; 
+}
+
+.text-right {
+	text-align: left;
+	margin-left: 10px;
+}

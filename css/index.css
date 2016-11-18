@@ -11,6 +11,10 @@ p {
 	color: #7b7b7b;
 }
 
+a, a:focus, a:hover {
+	text-decoration: none;
+}
+
 .container {
 	position: absolute;
 	margin: -300px auto 0 auto;
@@ -18,6 +22,10 @@ p {
 	left: 0;
 	right: 0;
 	overflow: hidden;
+}
+
+.container a:hover {
+	color: #7db701;
 }
 
 /* ///// END MAIN ///// */
@@ -63,26 +71,99 @@ p {
 
 /* WELKOME */
 /* Message */
+
 #block-message {
+	position: relative;
+	margin-top: 20px;
 	padding-left: 0px;
 	background-color: #f9f9f9;
 }
 
-#block-message blockquote {
+#welcome blockquote {
 	border-left-color: #7db701;
 	border-radius: 5px;
 }
 
 #block-message strong {
+	font-style: italic;
 	font-size: 25px;
 }
 
-#signature {
+#block-message img {
 	position: absolute;
-	right: 70px;
+	right: 50px;
+	bottom: -30px;
 }
 
 /* End Message */
+/* Contact Social */
+
+.contact-social {
+	margin-top: 70px;
+	padding-left: 0;
+}
+
+.hr-button {
+	float: left;
+	padding-top: 5px;
+}
+
+.hr-button a {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 5px 12px;
+  color: #999;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: 2px solid #999;
+}
+
+.hr-button a:hover {
+  border-color: #7db701;
+}
+
+.social_icon {
+	text-align: right;
+}
+
+.social_icon span {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 1px;
+}
+
+.social_icon span a {
+  display: block;
+  border-radius: 100%;
+  border: 1px solid #999;
+  color: #999;
+  height: 100%;
+}
+
+.social_icon span a:hover {
+  border-color: #7db701;
+}
+
+/* End Contact Social */
+/* Contact Table Block */
+
+.contact-block {
+	margin-top: 50px;
+	background-color: #f9f9f9;
+}
+
+.text-right {
+  color: #7b7b7b;
+  padding-right: 85px;
+}
+
+.font-weight-m {
+    font-weight: bolder;
+}
+/* End Contact Table Block */
 /* END WELKOME */
 
 /* ///// END CONTENT ///// */
