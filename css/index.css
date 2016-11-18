@@ -1,4 +1,4 @@
-/* MAIN */
+ /* MAIN */
 body {
 	background-color: #7db701;
 	font-family: 'Lato', Arial, sans-serif;
@@ -37,8 +37,23 @@ p {
 
 /* ///// MAIN CONTENT ///// */
 
-.nav-tabs, .tab-content {
+.nav-tabs {
+	background-color: #f9f9f9;
+}
+
+.tab-content {
 	background-color: white;
 }
+
+.nav-tabs a {
+	color: #7b7b7b;
+}
+
+.nav-tabs>li.active>a,
+ .nav-tabs>li.active>a:hover,
+   .nav-tabs>li.active>a:focus {
+	color: #7db701;
+}
+
 
 /* MENU */
