@@ -1,4 +1,5 @@
- /* MAIN */
+ /* ///// MAIN ///// */
+
 body {
 	background-color: #7db701;
 	font-family: 'Lato', Arial, sans-serif;
@@ -12,7 +13,6 @@ p {
 
 .container {
 	position: absolute;
-	/*width: 1140px;*/
 	margin: -300px auto 0 auto;
 	top: 50%;
 	left: 0;
@@ -20,10 +20,8 @@ p {
 	overflow: hidden;
 }
 
-
-.tab-pane {
-	padding: 30px;
-}
+/* ///// END MAIN ///// */
+/* ///// PHOTOGRAPHY ///// */
 
 #parag {
 	position: absolute;
@@ -35,14 +33,11 @@ p {
 	color: white;
 }	
 
-/* ///// MAIN CONTENT ///// */
+/* ///// END PHOTOGRAPHY ///// */
+/* ///// MENU ///// */
 
 .nav-tabs {
 	background-color: #f9f9f9;
-}
-
-.tab-content {
-	background-color: white;
 }
 
 .nav-tabs a {
@@ -55,5 +50,39 @@ p {
 	color: #7db701;
 }
 
+/* ///// END MENU ///// */
+/* ///// CONTENT ///// */
 
-/* MENU */
+.tab-content {
+	background-color: white;
+}
+
+.tab-pane {
+	padding: 30px;
+}
+
+/* WELKOME */
+/* Message */
+#block-message {
+	padding-left: 0px;
+	background-color: #f9f9f9;
+}
+
+#block-message blockquote {
+	border-left-color: #7db701;
+	border-radius: 5px;
+}
+
+#block-message strong {
+	font-size: 25px;
+}
+
+#signature {
+	position: absolute;
+	right: 70px;
+}
+
+/* End Message */
+/* END WELKOME */
+
+/* ///// END CONTENT ///// */
