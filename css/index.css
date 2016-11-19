@@ -1,4 +1,6 @@
+ /* //////////////// */
  /* ///// MAIN ///// */
+ /* //////////////// */
 
 body {
 	background-color: #7db701;
@@ -9,6 +11,10 @@ body {
 
 p {
 	color: #7b7b7b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
 }
 
 a, a:focus, a:hover {
@@ -28,8 +34,13 @@ a, a:focus, a:hover {
 	color: #7db701;
 }
 
+/* //////////////////// */
 /* ///// END MAIN ///// */
+/* //////////////////// */
+
+/* /////////////////////// */
 /* ///// PHOTOGRAPHY ///// */
+/* /////////////////////// */
 
 #parag {
 	position: absolute;
@@ -37,12 +48,17 @@ a, a:focus, a:hover {
 	left: 20px;
 }
 
-#parag p, h3 {
+#parag p, #parag h3 {
 	color: white;
 }	
 
+/* /////////////////////////// */
 /* ///// END PHOTOGRAPHY ///// */
+/* /////////////////////////// */
+
+/* //////////////// */
 /* ///// MENU ///// */
+/* //////////////// */
 
 .nav-tabs {
 	background-color: #f9f9f9;
@@ -57,10 +73,13 @@ a, a:focus, a:hover {
    .nav-tabs>li.active>a:focus {
 	color: #7db701;
 }
-
+/* //////////////////// */
 /* ///// END MENU ///// */
-/* ///// CONTENT ///// */
+/* //////////////////// */
 
+/* /////////////////// */
+/* ///// CONTENT ///// */
+/* /////////////////// */
 .tab-content {
 	background-color: white;
 }
@@ -69,7 +88,7 @@ a, a:focus, a:hover {
 	padding: 30px;
 }
 
-/* WELKOME */
+/* ///// WELKOME ///// */
 /* Message */
 
 #block-message {
@@ -109,7 +128,7 @@ a, a:focus, a:hover {
 }
 
 .hr-button a {
-  font-weight: 600;
+  /*font-weight: 600;*/
   letter-spacing: 0.5px;
   padding: 5px 12px;
   color: #999;
@@ -164,6 +183,70 @@ a, a:focus, a:hover {
     font-weight: bolder;
 }
 /* End Contact Table Block */
-/* END WELKOME */
+/* ///// END WELKOME ///// */
 
+/* ///// PROFILE ///// */
+/* ///// END PROFILE ///// */
+
+/* ///// RESUME ///// */
+/* EDUCATION */
+.post-header {
+	text-align: center;
+}
+
+.post-header h3:before, .post-header h3:after {
+  content: "";
+  display: inline-block;
+  margin: 7px;
+  width: 20%;
+  height: 5px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-header h3 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
+.education {
+	margin: 50px 0;
+}
+
+.year {
+	position: relative;
+  float: left;
+  padding: 30px 20px;
+  border-right: 2px solid #ddd;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.box_content {
+  padding-top: 8px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+#resume li {
+  list-style: none;
+}
+
+/* END EDUCATION */
+/* EMPLOYMENT */
+/* END EMPLOYMENT */
+/* SKILLS */
+/* END SKILLS */
+/* ///// END RESUME ///// */
+
+/* ///// PORTFOLIO ///// */
+/* ///// END PORTFOLIO ///// */
+
+/* ///// CONTACT ///// */
+/* ///// END CONTACT ///// */
+
+/* /////////////////////// */
 /* ///// END CONTENT ///// */
+/* /////////////////////// */
