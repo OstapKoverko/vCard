@@ -211,15 +211,34 @@ a, a:focus, a:hover {
 	position: relative;
 	display: flex;
   animation-duration: 3s;
+  animation-name: skillbar;
 }
 
-.sb1 {
-  animation-name: sb1;
+#sb1 div {animation-timing-function: linear;
+	background-color: rgb(239, 128, 38);
+}
+#sb2 div {animation-timing-function: ease;
+	background-color: rgb(1, 111, 184);
+}
+#sb3 div {animation-timing-function: ease-in;
+	background-color: rgb(255, 222, 37);
+}
+#sb4 div {animation-timing-function: cubic-bezier(1, 0, 0.22, 2.5);
+	background-color: rgb(21, 181, 61);
+}
+#sb5 div {animation-timing-function: ease-in-out;
+	background-color: rgb(105, 193, 245);
+}
+#sb6 div {animation-timing-function: linear;
+	background-color: rgb(87, 59, 126);
+}
+#sb7 div {animation-timing-function: ease;
+	background-color: rgb(240, 0, 0);
 }
 
-@keyframes sb1 {
-  from {width: 0px;}
-  to {width: 290px;}
+@keyframes skillbar {
+  from {width: 0%;}
+  to {width: 100%;}
 }
 
 }
