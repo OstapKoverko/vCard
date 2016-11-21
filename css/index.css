@@ -34,6 +34,25 @@ a, a:focus, a:hover {
 	color: #7db701;
 }
 
+.post-header {
+	text-align: center;
+}
+
+.post-header h3:before, .post-header h3:after {
+  content: "";
+  display: inline-block;
+  margin: 7px;
+  width: 20%;
+  height: 5px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-header h3 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
 /* //////////////////// */
 /* ///// END MAIN ///// */
 /* //////////////////// */
@@ -180,35 +199,45 @@ a, a:focus, a:hover {
 }
 
 .font-weight-m {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 /* End Contact Table Block */
 /* ///// END WELKOME ///// */
 
 /* ///// PROFILE ///// */
+/* SKILLS */
+
+.skillbar {
+	position: relative;
+	display: flex;
+  animation-duration: 3s;
+}
+
+.sb1 {
+  animation-name: sb1;
+}
+
+@keyframes sb1 {
+  from {width: 0px;}
+  to {width: 290px;}
+}
+
+}
+
+/*.skillbar span {
+	position: absolute;
+	left: 0px;
+}*/
+
+.skillbar p {
+	line-height: normal;
+}
+
+/* END SKILLS */
 /* ///// END PROFILE ///// */
 
 /* ///// RESUME ///// */
 /* EDUCATION */
-.post-header {
-	text-align: center;
-}
-
-.post-header h3:before, .post-header h3:after {
-  content: "";
-  display: inline-block;
-  margin: 7px;
-  width: 20%;
-  height: 5px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-}
-
-.post-header h3 {
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 2px;
-}
-
 .education {
 	margin: 50px 0;
 }
@@ -232,13 +261,13 @@ ul {
 
 #resume li {
   list-style: none;
+  display: inline-block;
+  margin: 10px 0;
 }
 
 /* END EDUCATION */
 /* EMPLOYMENT */
 /* END EMPLOYMENT */
-/* SKILLS */
-/* END SKILLS */
 /* ///// END RESUME ///// */
 
 /* ///// PORTFOLIO ///// */
