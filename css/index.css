@@ -53,6 +53,10 @@ a, a:focus, a:hover {
   letter-spacing: 2px;
 }
 
+.section {
+	margin: 30px 0;
+}
+
 /* //////////////////// */
 /* ///// END MAIN ///// */
 /* //////////////////// */
@@ -147,7 +151,6 @@ a, a:focus, a:hover {
 }
 
 .hr-button a {
-  /*font-weight: 600;*/
   letter-spacing: 0.5px;
   padding: 5px 12px;
   color: #999;
@@ -212,44 +215,36 @@ a, a:focus, a:hover {
 	display: flex;
   animation-duration: 3s;
   animation-name: skillbar;
+  line-height: 28px;
+  height: 30px;
+  margin: 10px 0;
 }
 
-#sb1 div {animation-timing-function: linear;
-	background-color: rgb(239, 128, 38);
-}
-#sb2 div {animation-timing-function: ease;
-	background-color: rgb(1, 111, 184);
-}
-#sb3 div {animation-timing-function: ease-in;
-	background-color: rgb(255, 222, 37);
-}
-#sb4 div {animation-timing-function: cubic-bezier(1, 0, 0.22, 2.5);
-	background-color: rgb(21, 181, 61);
-}
-#sb5 div {animation-timing-function: ease-in-out;
-	background-color: rgb(105, 193, 245);
-}
-#sb6 div {animation-timing-function: linear;
-	background-color: rgb(87, 59, 126);
-}
-#sb7 div {animation-timing-function: ease;
-	background-color: rgb(240, 0, 0);
-}
+#sb1 {animation-timing-function: linear;}
+#sb2 {animation-timing-function: ease;}
+#sb3 {animation-timing-function: ease-in;}
+#sb4 {animation-timing-function: cubic-bezier(1, 0, 0.22, 2.5);}
+#sb5 {animation-timing-function: ease-in-out;}
+#sb6 {animation-timing-function: linear;}
+#sb7 {animation-timing-function: ease;}
+
+#sb1 div {background-color: rgb(239, 128, 38);}
+#sb2 div {background-color: rgb(1, 111, 184);}
+#sb3 div {background-color: rgb(247, 210, 5);}
+#sb4 div {background-color: rgb(21, 181, 61);}
+#sb5 div {background-color: rgb(105, 193, 245);}
+#sb6 div {background-color: rgb(87, 59, 126);}
+#sb7 div {background-color: rgb(240, 0, 0);}
 
 @keyframes skillbar {
   from {width: 0%;}
   to {width: 100%;}
 }
 
-}
-
-/*.skillbar span {
-	position: absolute;
-	left: 0px;
-}*/
-
-.skillbar p {
-	line-height: normal;
+.progress-bar {
+	margin-right: 5px;
+	line-height: 28px;
+	font-size: 1em;
 }
 
 /* END SKILLS */
@@ -257,9 +252,6 @@ a, a:focus, a:hover {
 
 /* ///// RESUME ///// */
 /* EDUCATION */
-.education {
-	margin: 50px 0;
-}
 
 .year {
 	position: relative;
