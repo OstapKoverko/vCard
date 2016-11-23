@@ -62,3 +62,14 @@
 	text-align: left;
 	margin-left: 20px;
 }
+
+.airsoft-image {
+	width: 257px;
+	margin: auto;
+	float: none;
+}
+
+.project-image {
+	margin: 30px 0;
+	width: 257px;
+}
