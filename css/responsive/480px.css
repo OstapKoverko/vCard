@@ -67,3 +67,13 @@
   width: 10%;
 }
 
+.airsoft img, .studio-brothers img {
+	display: block;
+	margin: 0 auto 30px;
+	width: 257px;
+}
+
+.vcard img {
+	margin-top: 30px;
+	width: 257px;
+}

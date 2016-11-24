@@ -29,3 +29,7 @@
 	display: none;
 }
 
+.airsoft img, .studio-brothers img {
+	margin-right: 30px;
+	float: left;
+}

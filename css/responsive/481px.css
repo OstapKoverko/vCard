@@ -63,13 +63,13 @@
 	margin-left: 20px;
 }
 
-.airsoft-image {
+.airsoft img, .studio-brothers img {
+	display: block;
+	margin: 0 auto 30px;
 	width: 257px;
-	margin: auto;
-	float: none;
 }
 
-.project-image {
-	margin: 30px 0;
-	width: 257px;
+.vcard img {
+	margin-top: 30px;
+	width: 380px;
 }

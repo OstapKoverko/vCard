@@ -14,3 +14,7 @@
   padding-right: 10px;
 }
 
+.airsoft img, .studio-brothers img {
+	margin-right: 30px;
+	float: left;
+}
