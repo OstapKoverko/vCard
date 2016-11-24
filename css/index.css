@@ -21,6 +21,11 @@ a, a:focus, a:hover {
 	text-decoration: none;
 }
 
+blockquote {
+	border-left-color: #7db701;
+	border-radius: 5px;
+}
+
 .container {
 	position: absolute;
 	margin: -300px auto 0 auto;
@@ -119,11 +124,6 @@ a, a:focus, a:hover {
 	margin-top: 20px;
 	padding-left: 0px;
 	background-color: #f9f9f9;
-}
-
-#welcome blockquote {
-	border-left-color: #7db701;
-	border-radius: 5px;
 }
 
 #block-message strong {
