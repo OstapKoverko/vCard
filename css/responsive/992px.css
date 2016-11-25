@@ -18,3 +18,25 @@
 	margin-right: 30px;
 	float: left;
 }
+
+#email, #message {
+	width: 268px;
+}
+
+#message {
+	height: 100px;
+}
+
+#contact blockquote {
+	font-size: 15px;
+}
+
+#contact .contact-block {
+	margin-top: 10px;
+	background-color: #f9f9f9;
+}
+
+#contact .social_icon {
+	width: 220px;
+  margin: 40% auto;
+}

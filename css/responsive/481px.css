@@ -41,11 +41,11 @@
 	padding: 20px 17px;
 }
 
-.contact-social {
+.optional-panel {
 	text-align: center;
 }
 
-.social_icon {
+.optional-panel .social_icon {
   text-align: center;
   margin-top: 20px;
 }

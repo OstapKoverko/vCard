@@ -14,3 +14,17 @@
 	margin-right: 30px;
 	float: left;
 }
+
+#email, #message {
+	width: 300px;
+}
+
+#contact .contact-block {
+	margin-top: 50px;
+	background-color: #f9f9f9;
+}
+
+#contact .social_icon {
+	width: 220px;
+  margin: 40% auto;
+}
