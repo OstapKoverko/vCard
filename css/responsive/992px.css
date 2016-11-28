@@ -27,8 +27,12 @@
 	height: 100px;
 }
 
-#contact blockquote {
+blockquote {
 	font-size: 15px;
+}
+
+.shift {
+	padding-right: 60px;
 }
 
 #contact .contact-block {

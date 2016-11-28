@@ -69,7 +69,15 @@
 	width: 257px;
 }
 
+#email, #message {
+	width: 350px;
+}
+
 .vcard img {
 	margin-top: 30px;
 	width: 380px;
+}
+
+.social_icon {
+	margin: 30px;
 }

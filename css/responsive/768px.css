@@ -33,3 +33,15 @@
 	margin-right: 30px;
 	float: left;
 }
+
+#email, #message {
+	width: 350px;
+}
+
+.shift {
+	padding-right: 80px;
+}
+
+.social_icon {
+	margin: 30px;
+}

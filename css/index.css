@@ -24,6 +24,7 @@ a, a:focus, a:hover {
 blockquote {
 	border-left-color: #7db701;
 	border-radius: 5px;
+	text-align: left;
 }
 
 .container {
@@ -198,7 +199,6 @@ blockquote {
 
 .text-right {
   color: #7b7b7b;
-  padding-right: 85px;
 }
 
 .font-weight-m {
