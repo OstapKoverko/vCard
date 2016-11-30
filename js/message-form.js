@@ -9,7 +9,7 @@ $(function() {
         },
         dataType: "json"
     }).done(function() {
-        $('#contact-form').html('<h4>Дякую! Я невдовзі Вам відповім!</h4>')
+        $('#contact-form').html('<h4>Thank you! I will answer you soon!</h4>')
     });
 });
 });

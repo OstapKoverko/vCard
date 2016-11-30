@@ -25,6 +25,11 @@ blockquote {
 	border-left-color: #7db701;
 	border-radius: 5px;
 	text-align: left;
+	font-size: 15px;
+}
+
+ul {
+  padding-left: 0;
 }
 
 .container {
@@ -82,6 +87,21 @@ blockquote {
 
 .social_icon span a:hover {
   border-color: #7db701;
+}
+
+.table li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.table-left-part {
+	position: relative;
+  float: left;
+  padding: 30px 20px;
+  border-right: 2px solid #ddd;
+  margin-right: 20px;
+  text-align: center;
 }
 
 /* //////////////////// */
@@ -157,6 +177,11 @@ blockquote {
 	position: absolute;
 	right: 50px;
 	bottom: -30px;
+}
+
+#block-message i {
+	right: 20px;
+	position: absolute;
 }
 
 /* End Message */
@@ -248,35 +273,30 @@ blockquote {
 }
 
 /* END SKILLS */
+/* CERTIFICATES */
+
+.table-left-part img {
+  max-width: 150px;
+  max-height: 100px;
+}
+
+/* END CERTIFICATES */
+
+/* TESTIMONIALS */
+/* END TESTIMONIALS */
+
 /* ///// END PROFILE ///// */
 
 /* ///// RESUME ///// */
 /* EDUCATION */
 
-.year {
-	position: relative;
-  float: left;
-  padding: 30px 20px;
-  border-right: 2px solid #ddd;
-  margin-right: 20px;
-  text-align: center;
-}
 
 .box_content {
   padding-top: 8px;
 }
 
-ul {
-  padding-left: 0;
-}
-
-#resume li {
-  list-style: none;
-  display: inline-block;
-  margin: 10px 0;
-}
-
 /* END EDUCATION */
+
 /* EMPLOYMENT */
 /* END EMPLOYMENT */
 /* ///// END RESUME ///// */

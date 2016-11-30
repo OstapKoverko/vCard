@@ -2,20 +2,7 @@
 	width: 350px;
 }
 #profile-data {
-	height: 370px;
-	background-image: url(../../img/bg.jpg);
-	background-size: cover;
-	background-position: center;
 	text-align: center;
-}
-
-#photography {
-	display: inline-block;
-	height: 160px;
-	width: 160px;
-	margin: 30px auto 150px auto;
-	overflow: hidden;
-	border-radius: 100%;
 }
 
 #photography img {
@@ -26,6 +13,10 @@
 	margin: 30px auto 50px auto;
 	width: 100%;
 	left: 0;
+}
+
+#block-message strong {
+	display: none;
 }
 
 .icon-off {

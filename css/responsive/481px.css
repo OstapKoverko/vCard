@@ -81,3 +81,11 @@
 .social_icon {
 	margin: 30px;
 }
+
+.rotate_words {
+	display: block;
+}
+
+#block-message p {
+	margin-top: 40px;
+}
