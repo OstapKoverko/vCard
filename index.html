@@ -30,8 +30,18 @@
 	<script type="text/javascript" src=js/perfect-scrollbar.jquery.js></script>
 
 	<!-- OWL Carousel -->
-	<script src="js/owl.carousel.min.js" type="text/javascript"></script>
-	<script src="js/testimonials.js" type="text/javascript"></script>
+	<!-- <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+	<script src="js/testimonials.js" type="text/javascript"></script> -->
+
+			<!-- Important Owl stylesheet -->
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			 
+			<!-- Default Theme -->
+			<link rel="stylesheet" href="css/owl.theme.css">
+			 
+			 
+			<!-- Include js plugin -->
+			<script src="js/owl.carousel.min.js"></script>
 
 
 	<!-- Font Awesome-->
@@ -230,51 +240,44 @@
 				      			</a>
 				      		</li>
 				      	</ul>	
-				      </div>
+				      </div> 
 				      <!-- /Certificates -->	
 				      <!-- Testimonials -->
 				      <div class="post-header">
 				      	<h3>TESTIMONIALS</h3>	
 				      </div>
-				      <div class="row">
-                <div class="col-md-12">
-                  <div class="testimonials vcard_block">
-                    <div id="testimonials_slider">
-                      <!-- testimonials item -->
-                      <div class="item">
-                        <div class="testimonials_inner">
-                          <div class="testimonials_photo">
-                            <img src="img/testimonials/yaremchuk.jpg" alt="yaremchuk">
-                          </div>
-                          <div class="testimonials_text">
-                            " Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus suscipit mauris, sit amet suscipit nisi   eleifend et consectetur adipiscing elit. "
-                          </div>
-                          <div class="shape"></div>
-                          <div class="testimonials_name">
-                            <span class="testimonials_textbold">Johny Doe</span>, CEO of Rancabentang
-                          </div>
-                        </div>
-                      </div>
-                      <!-- // testimonials item -->
-                      <!-- testimonials item -->
-                      <div class="item">
-                        <div class="testimonials_inner">
-                          <div class="testimonials_photo">
-                            <img src="img/testimonials/tkachuk.jpg" alt="tkachuk">
-                          </div>
-                          <div class="testimonials_text">
-                            " Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus suscipit mauris, sit amet suscipit nisi   eleifend et consectetur adipiscing elit. "
-                          </div>
-                          <div class="shape"></div>
-                          <div class="testimonials_name">
-                            <span class="testimonials_textbold">Johny Doe</span>, CEO of Rancabentang
-                          </div>
-                        </div>
-                      </div>
-                      <!-- // testimonials item -->
-                    </div>
+				      <div id="testimonials_slider" class="owl-carousel">
+                <!-- testimonials item -->
+                <div class="item">
+                  <!-- <div class="testimonials_inner"> -->
+                  <div class="testimonials_photo">
+                    <img src="img/testimonials/yaremchuk.jpg" alt="yaremchuk">
+                  </div>
+                  <div class="testimonials_text">
+                    " Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus suscipit mauris, sit amet suscipit nisi   eleifend et consectetur adipiscing elit. "
+                  </div>
+                  <!-- <div class="shape"></div> -->
+                  <div class="testimonials_name">
+                    <span class="testimonials_textbold">Johny Doe</span>, CEO of Rancabentang
+                	</div>
+                </div>
+                <!-- // testimonials item -->
+                <!-- testimonials item -->
+                <div class="item">
+                  <!-- <div class="testimonials_inner"> -->
+                  <div class="testimonials_photo">
+                    <img src="img/testimonials/tkachuk.jpg" alt="tkachuk">
+                  </div>
+                  <div class="testimonials_text">
+                    " Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus suscipit mauris, sit amet suscipit nisi   eleifend et consectetur adipiscing elit. "
+                  </div>
+                  <!-- <div class="shape"></div> -->
+                  <div class="testimonials_name">
+                    <span class="testimonials_textbold">Johny Doe</span>, CEO of Rancabentang
                   </div>
                 </div>
+                <!-- // testimonials item -->
+              	</div>
               </div>
            		<!-- /Testimonials -->	
 				    </div>
@@ -478,9 +481,14 @@
 <script>
   jQuery(document).ready(function ($) {
   	$('.tab-content').perfectScrollbar({
-  wheelSpeed: 0.9
-});
+  	wheelSpeed: 0.9
+	});
+  	$("#testimonials_slider").owlCarousel({
+  	singleItem: true,
+    slideSpeed: 300,
+    autoPlay: true,	
   });
+});
 </script>
 </body>
 </html>
