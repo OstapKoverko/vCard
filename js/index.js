@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
 	});
 
   // TESTIMONIALS CAROUSEL
- 	$("#testimonials_slider").owlCarousel({
+ 	$("#testimonials-slider").owlCarousel({
   	singleItem: true,
     slideSpeed: 300,
     autoPlay: true,	
