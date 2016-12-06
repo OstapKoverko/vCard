@@ -97,12 +97,17 @@ ul {
 }
 
 .table-left-part {
-	position: relative;
+/*	position: relative;
   float: left;
   padding: 30px 20px;
   border-right: 2px solid #ddd;
-  margin-right: 20px;
+  margin-right: 20px;*/
   text-align: center;
+}
+
+.table-right-part {
+	border-left: 2px solid #ddd;
+	padding-left: 15px;
 }
 
 /* //////////////////// */
@@ -301,12 +306,19 @@ ul {
   margin: 10px auto;
 }
 /* END TESTIMONIALS */
-
 /* ///// END PROFILE ///// */
 
 /* ///// RESUME ///// */
-/* EDUCATION */
+/*#resume .table-left-part {
+	width: 140px;
+}*/
 
+#resume .table-right-part {
+	
+}
+
+
+/* EDUCATION */
 
 .box_content {
   padding-top: 8px;
@@ -315,6 +327,7 @@ ul {
 /* END EDUCATION */
 
 /* EMPLOYMENT */
+
 /* END EMPLOYMENT */
 /* ///// END RESUME ///// */
 
