@@ -1,3 +1,7 @@
+///////////////////////////////////////
+////////////// LOADING ////////////////
+///////////////////////////////////////
+
 jQuery(document).ready(function ($) {
 
 	// PERFECT SCROLLBAR
@@ -15,3 +19,13 @@ jQuery(document).ready(function ($) {
   });
 });
 
+
+// Show Alert Function
+function ShowAlert() {
+		document.getElementById('alert').style.display = "block";
+}
+
+// Close Alert Function
+function CloseAlert() {
+		document.getElementById('alert').style.display = "none";
+}

@@ -216,6 +216,12 @@ ul {
   border-color: #7db701;
 }
 
+#alert {
+	display: none;
+	position: fixed;
+	z-index: 1;
+}
+
 .optional-panel .social_icon {
 	text-align: right;
 }

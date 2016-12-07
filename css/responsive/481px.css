@@ -89,3 +89,7 @@
 #block-message p {
 	margin-top: 40px;
 }
+
+#alert {
+	width: 380px;
+}
