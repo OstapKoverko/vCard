@@ -167,7 +167,7 @@ ul {
 /* ///// WELKOME ///// */
 /* Message */
 
-/*#block-message {
+#block-message {
 	position: relative;
 	margin-top: 20px;
 	padding-left: 0px;
@@ -186,29 +186,6 @@ ul {
 }
 
 #block-message i {
-	right: 20px;
-	position: absolute;
-}*/
-
-#welcome blockquote {
-	position: relative;
-	margin-top: 20px;
-	padding-left: 0px;
-	background-color: #f9f9f9;
-}
-
-#welcome strong {
-	font-style: italic;
-	font-size: 25px;
-}
-
-#welcome img {
-	position: absolute;
-	right: 50px;
-	bottom: -30px;
-}
-
-#welcome i {
 	right: 20px;
 	position: absolute;
 }
