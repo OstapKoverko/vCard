@@ -27,7 +27,7 @@
 	
 	<!-- Perfect Scrolbar -->
 	<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css">
-	<script type="text/javascript" src=js/perfect-scrollbar.jquery.js></script>
+	<script src=js/perfect-scrollbar.jquery.js type="text/javascript"/>
 
 	<!-- OWL Carousel -->
 	<!-- Important Owl stylesheet -->
@@ -95,27 +95,27 @@
 					<!-- WELCOME -->
 				    <div id="welcome" class="tab-pane fade in active">
 				      <!-- Message -->
-				      <dir id="block-message">
-						    <blockquote>
+				      <ul id="block-message">  <!-- replased dir -->
+ 						    <blockquote>
 						      <strong>Hello, I’m Web Developer / 
 	                  <span class="rotate_words">
 	                    <span class="rotate-in active"> HTML/CSS/JS </span>
-	                    <span class="rotate-out"> AngularJS </span>
+											<span class="rotate-out"> AngularJS </span>
 	                    <span class="rotate-out"> Bootstrap </span>
-	                    <span class="rotate-out"> MDL </span>
-	                    <span class="rotate-out"> AJAX </span>
-	                    <span class="rotate-out"> WebSQL </span>
-	                    <span class="rotate-out"> jQuery </span>
+											<span class="rotate-out"> MDL </span>
+											<span class="rotate-out"> AJAX </span>
+											<span class="rotate-out"> jQuery </span>
+											<span class="rotate-out"> ActionScript </span>
 	                  </span>
 	                </strong>
 	                <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy!</p>
 	                <i>Norman Vincent Peale</i>
 	               <!--  <img src="img/SIG.png" alt="Signature"> -->
 						    </blockquote>
-				      </dir>
+				      </ul> <!-- replased dir -->
 				      <!-- /Message -->
 				      <!-- Optional Panel -->
-				      <dir class="optional-panel">
+				      <ul class="optional-panel">  <!-- replased dir -->
 				        <div class="hr-button">
                   <a href="#" onclick="ShowAlert()"><i class="fa fa-user-plus"></i> Hire Me</a>
                   <a href="https://drive.google.com/open?id=0B_22d-Jbd6Acd25yTVM3dHFBSHc"><i class="fa fa-cloud-download"></i> Download</a>
@@ -136,7 +136,7 @@
                   <span><a href="https://plus.google.com/u/0/106682447296263603240"><i class="fa fa-google-plus"></i></a></span>
                   <span><a href="https://www.youtube.com/channel/UCRt7gKafn4h6XALW98r0sQg"><i class="fa fa-youtube"></i></a></span>
                 </div>
-              </dir>
+              </ul> <!-- replased dir -->
 				      <!-- /Optional Panel -->
 				      <!-- Contact Table Block -->
 				      <div class="row">
@@ -180,9 +180,9 @@
 				      </div>
 				      <div class="skills section">
 				      	<div class="skillbar" id="sb1">
-           				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">HTML
+           				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">HTML
 									</div>
-									<p>80%</p>
+									<p>70%</p>
 	            	</div>
 	            	<div class="skillbar" id="sb2">      
             			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">CSS
@@ -190,29 +190,29 @@
 	            		<p>50%</p>
 	            	</div>
 	            	<div class="skillbar" id="sb3">
-	            		<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">JavaScript
+	            		<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">JavaScript
 	            		</div>
-	            		<p>70%</p>
+	            		<p>90%</p>
 	            	</div>
 	            	<div class="skillbar" id="sb4">
-	            		<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">AngularJS
-									</div>
-									<p>40%</p>
-	            	</div>
-	            	<div class="skillbar" id="sb5">
-	            		<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">Bootstrap
-									</div>
-									<p>70%</p>
-	            	</div>
-            	 	<div class="skillbar" id="sb6">
-            			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">Material Design Lite
-									</div>
-									<p>80%</p>
-	            	</div>
-	            	<div class="skillbar" id="sb7">
-            			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">jQuery
+	            		<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">AngularJS
 									</div>
 									<p>30%</p>
+	            	</div>
+	            	<div class="skillbar" id="sb5">
+	            		<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">Bootstrap
+									</div>
+									<p>50%</p>
+	            	</div>
+            	 	<div class="skillbar" id="sb6">
+            			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">Material Design Lite
+									</div>
+									<p>60%</p>
+	            	</div>
+	            	<div class="skillbar" id="sb7">
+            			<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">Transact-SQL
+									</div>
+									<p>70%</p>
 	            	</div>
 				      </div>
 				      <!-- /Skills -->
@@ -358,10 +358,27 @@
 				      	<h3>EMPLOYMENT</h3>	
 				      </div>
 				      <div class="table section">
-				      	<div class="row">
+								<div class="row">
 									<div class="col-md-3">
 				      			<div class="table-left-part">
-				      				<h4>2011 – Present</h4>
+				      				<h4>2017 – Present</h4>
+				      				<span>Intermediate Software Engineer</span>
+				      			</div>
+					      	</div>
+									<div class="col-md-9">
+				      			<div class="table-right-part">
+				      				<h4>SoftServe Business Systems</h4>
+				      				<p>Technical support of the SalesWorks - sales force automation system (SFA) used in customer relationship management (CRM) marketing and management that help automate FMCG sales and sales force management functions</p>
+					      			<p>Resolving customer referrals using OTRS</p>
+					      			<p>UAT and bugs registration in Targetprocess</p>
+					      			<p>Implementation of the system for new distributors</p>
+										</div>
+									</div>
+				      	</div>
+								<div class="row">
+									<div class="col-md-3">
+				      			<div class="table-left-part">
+				      				<h4>2011 – 2017</h4>
 				      				<span>Engineer</span>
 				      			</div>
 					      	</div>
@@ -498,7 +515,8 @@
 		                <textarea id="message" name="message" rows="10" cols="40"></textarea>
 		                <br>
 		                <br>
-		                <input type="submit" id="submit" value="Submit">
+										<input type="submit" id="submit" value="Submit">
+									</form>
 		            </div>
 	              <!-- Contact Form -->
 					    	<!-- Contact Social -->
@@ -551,7 +569,7 @@
 				</div>
 				<!-- /CONTENT -->
 			</div>
-		<!-- </div> -->
+		</div> 
 		<!-- /MAIN CONTENT -->	
 	</div>	
 </body>
