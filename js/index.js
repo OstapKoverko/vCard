@@ -2,30 +2,29 @@
 ////////////// LOADING ////////////////
 ///////////////////////////////////////
 
-jQuery(document).ready(function ($) {
-
-	// PERFECT SCROLLBAR
+jQuery(document).ready(function($) {
+  // PERFECT SCROLLBAR
   $('.tab-content').perfectScrollbar({
-  	wheelSpeed: 0.9
-	});
+    wheelSpeed: 0.9
+  });
 
   // TESTIMONIALS CAROUSEL
- 	$("#testimonials-slider").owlCarousel({
-  	singleItem: true,
-    slideSpeed: 300,
-    autoPlay: true,	
-    stopOnHover: true,
-    responsive:true
-  });
+  // Need to be fixed
+  // $('#testimonials-slider').owlCarousel({
+  //   singleItem: true,
+  //   slideSpeed: 300,
+  //   autoPlay: true,
+  //   stopOnHover: true,
+  //   responsive: true
+  // });
+
+  // Show Alert Function
+  function ShowAlert() {
+    document.getElementById('alert').style.display = 'block';
+  }
+
+  // Close Alert Function
+  function CloseAlert() {
+    document.getElementById('alert').style.display = 'none';
+  }
 });
-
-
-// Show Alert Function
-function ShowAlert() {
-		document.getElementById('alert').style.display = "block";
-}
-
-// Close Alert Function
-function CloseAlert() {
-		document.getElementById('alert').style.display = "none";
-}
