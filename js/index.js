@@ -4,9 +4,9 @@
 
 jQuery(document).ready(function($) {
   // PERFECT SCROLLBAR
-  // $('.tab-content').perfectScrollbar({
-  //   wheelSpeed: 0.9
-  // });
+  $('.tab-content').perfectScrollbar({
+    wheelSpeed: 0.9
+  });
 
   // TESTIMONIALS CAROUSEL
   // Need to be fixed
